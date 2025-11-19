@@ -1,0 +1,52 @@
+{
+    "liquidation_timestamp": 1760716721,
+    "txHash": "0xb69471034a718191e2a874c73a3470e5a3cff3883e6c23e93b30a36694b55383",
+    "user_id": "0x630bafe826882d54ed82db7a9a1b628d8190a590",
+    "last_action_timestamp": 1720603497.0,
+    "last_action_type": "reserves",
+    "liquidation_datetime": "2025-10-17 15:58:41",
+    "last_action_datetime": "2024-07-10 09:24:57",
+    "found_network": "Base Mainnet",
+    "block_number": 36963687,
+    "pre_liquidation_snapshot": [
+        {
+            "currentATokenBalance": "0",
+            "currentTotalDebt": "244807843865",
+            "reserve": {
+                "decimals": 18,
+                "price": {
+                    "priceInEth": "379395780900"
+                },
+                "reserveLiquidationThreshold": "8300",
+                "symbol": "WETH"
+            },
+            "usageAsCollateralEnabledOnUser": false
+        },
+        {
+            "currentATokenBalance": "0",
+            "currentTotalDebt": "75442",
+            "reserve": {
+                "decimals": 6,
+                "price": {
+                    "priceInEth": "99988942"
+                },
+                "reserveLiquidationThreshold": "7800",
+                "symbol": "USDC"
+            },
+            "usageAsCollateralEnabledOnUser": false
+        },
+        {
+            "currentATokenBalance": "100000",
+            "currentTotalDebt": "0",
+            "reserve": {
+                "decimals": 6,
+                "price": {
+                    "priceInEth": "100010000"
+                },
+                "reserveLiquidationThreshold": "7800",
+                "symbol": "USDbC"
+            },
+            "usageAsCollateralEnabledOnUser": true
+        }
+    ]
+}

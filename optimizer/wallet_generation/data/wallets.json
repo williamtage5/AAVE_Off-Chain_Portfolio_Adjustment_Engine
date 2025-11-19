@@ -1,0 +1,22 @@
+[
+    {
+        "wallet_id": "Partial_25pct_Debt",
+        "description": "Partial (Low-Liquidity). Cannot cover full debt.",
+        "available_usd": "510.142165311397254216"
+    },
+    {
+        "wallet_id": "Balanced_75pct_Debt",
+        "description": "Balanced (Medium-Liquidity). Cannot cover full debt.",
+        "available_usd": "1530.426495934191762647"
+    },
+    {
+        "wallet_id": "FullDebt_110pct_Debt",
+        "description": "High-Liquidity. Can cover full debt with surplus.",
+        "available_usd": "2244.625527370147918550"
+    },
+    {
+        "wallet_id": "FullCollateral_100pct_Coll",
+        "description": "Very High-Liquidity. Based on 100% of collateral value.",
+        "available_usd": "2514.483832593670162533"
+    }
+]

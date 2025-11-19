@@ -1,0 +1,742 @@
+[
+    {
+        "datetime_utc": "2025-10-21T23:00:00+00:00",
+        "wallet_id": "Partial_25pct_Debt",
+        "available_usd": "510.142165311397254216",
+        "Reason_For_Trigger": "High_Personal_Risk_Liquidated (HF < 1.0)",
+        "Baseline_State": {
+            "HF_before": "0.998322882834741243",
+            "P_Liq_before_6h": "1.000000000000000000"
+        },
+        "Optimization_Parameters": {
+            "LAMBDA": "100.000000000000000000",
+            "GRID_STEP_pct": 10
+        },
+        "Optimal_Action": {
+            "Z_Objective_Score": "33.229617012108717707",
+            "Allocation_pct": {
+                "Repay_USDC": 100,
+                "Add_WETH": 0,
+                "Add_cbBTC": 0
+            },
+            "Allocation_usd": {
+                "Repay_USDC": "510.142165311397254216",
+                "Add_WETH": "0.000000000000000000",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Allocation_quantity": {
+                "Repay_USDC": "510.193184630031086457",
+                "Add_WETH": "0.000000000000000000",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Result_HF_after": "1.331081733930637440",
+            "Metric1_HF_Improvement": "0.332758851095896197",
+            "Metric3_Operation_Cost_USD": "0.046268097480901975",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "1.000000000000000000"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-21T23:00:00+00:00",
+        "wallet_id": "Balanced_75pct_Debt",
+        "available_usd": "1530.426495934191762647",
+        "Reason_For_Trigger": "High_Personal_Risk_Liquidated (HF < 1.0)",
+        "Baseline_State": {
+            "HF_before": "0.998322882834741243",
+            "P_Liq_before_6h": "1.000000000000000000"
+        },
+        "Optimization_Parameters": {
+            "LAMBDA": "100.000000000000000000",
+            "GRID_STEP_pct": 10
+        },
+        "Optimal_Action": {
+            "Z_Objective_Score": "299.316367835332904737",
+            "Allocation_pct": {
+                "Repay_USDC": 100,
+                "Add_WETH": 0,
+                "Add_cbBTC": 0
+            },
+            "Allocation_usd": {
+                "Repay_USDC": "1530.426495934191762647",
+                "Add_WETH": "0.000000000000000000",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Allocation_quantity": {
+                "Repay_USDC": "1530.579553890093259370",
+                "Add_WETH": "0.000000000000000000",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Result_HF_after": "3.992874604112497350",
+            "Metric1_HF_Improvement": "2.994551721277756107",
+            "Metric3_Operation_Cost_USD": "0.138804292442705925",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "1.000000000000000000"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-21T23:00:00+00:00",
+        "wallet_id": "FullDebt_110pct_Debt",
+        "available_usd": "2244.625527370147918550",
+        "Reason_For_Trigger": "High_Personal_Risk_Liquidated (HF < 1.0)",
+        "Baseline_State": {
+            "HF_before": "0.998322882834741243",
+            "P_Liq_before_6h": "1.000000000000000000"
+        },
+        "Optimization_Parameters": {
+            "LAMBDA": "100.000000000000000000",
+            "GRID_STEP_pct": 10
+        },
+        "Optimal_Action": {
+            "Z_Objective_Score": "10737.930151102872357307",
+            "Allocation_pct": {
+                "Repay_USDC": 90,
+                "Add_WETH": 10,
+                "Add_cbBTC": 0
+            },
+            "Allocation_usd": {
+                "Repay_USDC": "2020.162974633133126695",
+                "Add_WETH": "224.462552737014791855",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Allocation_quantity": {
+                "Repay_USDC": "2020.365011134923102369",
+                "Add_WETH": "0.057543183258153988",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Result_HF_after": "108.351962517875596460",
+            "Metric1_HF_Improvement": "107.353639635040855217",
+            "Metric3_Operation_Cost_USD": "-2.566187598786835579",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "1.000000000000000000"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-21T23:00:00+00:00",
+        "wallet_id": "FullCollateral_100pct_Coll",
+        "available_usd": "2514.483832593670162533",
+        "Reason_For_Trigger": "High_Personal_Risk_Liquidated (HF < 1.0)",
+        "Baseline_State": {
+            "HF_before": "0.998322882834741243",
+            "P_Liq_before_6h": "1.000000000000000000"
+        },
+        "Optimization_Parameters": {
+            "LAMBDA": "100.000000000000000000",
+            "GRID_STEP_pct": 10
+        },
+        "Optimal_Action": {
+            "Z_Objective_Score": "8317.785716561735289626",
+            "Allocation_pct": {
+                "Repay_USDC": 80,
+                "Add_WETH": 20,
+                "Add_cbBTC": 0
+            },
+            "Allocation_usd": {
+                "Repay_USDC": "2011.587066074936130026",
+                "Add_WETH": "502.896766518734032507",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Allocation_quantity": {
+                "Repay_USDC": "2011.788244900099751588",
+                "Add_WETH": "0.128922532702482940",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Result_HF_after": "84.116405391258481036",
+            "Metric1_HF_Improvement": "83.118082508423739793",
+            "Metric3_Operation_Cost_USD": "-5.977465719361310367",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "1.000000000000000000"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-23T19:00:00+00:00",
+        "wallet_id": "Partial_25pct_Debt",
+        "available_usd": "510.142165311397254216",
+        "Reason_For_Trigger": "High_Personal_Risk_Liquidated (HF < 1.0)",
+        "Baseline_State": {
+            "HF_before": "0.991629804614886812",
+            "P_Liq_before_6h": "1.000000000000000000"
+        },
+        "Optimization_Parameters": {
+            "LAMBDA": "100.000000000000000000",
+            "GRID_STEP_pct": 10
+        },
+        "Optimal_Action": {
+            "Z_Objective_Score": "33.105779684720448557",
+            "Allocation_pct": {
+                "Repay_USDC": 100,
+                "Add_WETH": 0,
+                "Add_cbBTC": 0
+            },
+            "Allocation_usd": {
+                "Repay_USDC": "510.142165311397254216",
+                "Add_WETH": "0.000000000000000000",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Allocation_quantity": {
+                "Repay_USDC": "510.241205940257415877",
+                "Add_WETH": "0.000000000000000000",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Result_HF_after": "1.322199214710369368",
+            "Metric1_HF_Improvement": "0.330569410095482556",
+            "Metric3_Operation_Cost_USD": "-0.048838675172192956",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "1.000000000000000000"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-23T19:00:00+00:00",
+        "wallet_id": "Balanced_75pct_Debt",
+        "available_usd": "1530.426495934191762647",
+        "Reason_For_Trigger": "High_Personal_Risk_Liquidated (HF < 1.0)",
+        "Baseline_State": {
+            "HF_before": "0.991629804614886812",
+            "P_Liq_before_6h": "1.000000000000000000"
+        },
+        "Optimization_Parameters": {
+            "LAMBDA": "100.000000000000000000",
+            "GRID_STEP_pct": 10
+        },
+        "Optimal_Action": {
+            "Z_Objective_Score": "297.706051680658539597",
+            "Allocation_pct": {
+                "Repay_USDC": 100,
+                "Add_WETH": 0,
+                "Add_cbBTC": 0
+            },
+            "Allocation_usd": {
+                "Repay_USDC": "1530.426495934191762647",
+                "Add_WETH": "0.000000000000000000",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Allocation_quantity": {
+                "Repay_USDC": "1530.723617820772247629",
+                "Add_WETH": "0.000000000000000000",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Result_HF_after": "3.967225161166306419",
+            "Metric1_HF_Improvement": "2.975595356551419607",
+            "Metric3_Operation_Cost_USD": "-0.146516025516578868",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "1.000000000000000000"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-23T19:00:00+00:00",
+        "wallet_id": "FullDebt_110pct_Debt",
+        "available_usd": "2244.625527370147918550",
+        "Reason_For_Trigger": "High_Personal_Risk_Liquidated (HF < 1.0)",
+        "Baseline_State": {
+            "HF_before": "0.991629804614886812",
+            "P_Liq_before_6h": "1.000000000000000000"
+        },
+        "Optimization_Parameters": {
+            "LAMBDA": "100.000000000000000000",
+            "GRID_STEP_pct": 10
+        },
+        "Optimal_Action": {
+            "Z_Objective_Score": "10773.433843500798148432",
+            "Allocation_pct": {
+                "Repay_USDC": 90,
+                "Add_WETH": 10,
+                "Add_cbBTC": 0
+            },
+            "Allocation_usd": {
+                "Repay_USDC": "2020.162974633133126695",
+                "Add_WETH": "224.462552737014791855",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Allocation_quantity": {
+                "Repay_USDC": "2020.555175523419366871",
+                "Add_WETH": "0.057968186095432384",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Result_HF_after": "108.695122799999520110",
+            "Metric1_HF_Improvement": "107.703492995384633298",
+            "Metric3_Operation_Cost_USD": "-3.084543962334818644",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "1.000000000000000000"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-23T19:00:00+00:00",
+        "wallet_id": "FullCollateral_100pct_Coll",
+        "available_usd": "2514.483832593670162533",
+        "Reason_For_Trigger": "High_Personal_Risk_Liquidated (HF < 1.0)",
+        "Baseline_State": {
+            "HF_before": "0.991629804614886812",
+            "P_Liq_before_6h": "1.000000000000000000"
+        },
+        "Optimization_Parameters": {
+            "LAMBDA": "100.000000000000000000",
+            "GRID_STEP_pct": 10
+        },
+        "Optimal_Action": {
+            "Z_Objective_Score": "8327.138906787285169141",
+            "Allocation_pct": {
+                "Repay_USDC": 80,
+                "Add_WETH": 20,
+                "Add_cbBTC": 0
+            },
+            "Allocation_usd": {
+                "Repay_USDC": "2011.587066074936130026",
+                "Add_WETH": "502.896766518734032507",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Allocation_quantity": {
+                "Repay_USDC": "2011.977602010951960873",
+                "Add_WETH": "0.129874729628083295",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Result_HF_after": "84.196318508414901606",
+            "Metric1_HF_Improvement": "83.204688703800014794",
+            "Metric3_Operation_Cost_USD": "-6.670036407283689749",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "1.000000000000000000"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-24T16:00:00+00:00",
+        "wallet_id": "Partial_25pct_Debt",
+        "available_usd": "510.142165311397254216",
+        "Reason_For_Trigger": "High_Personal_Risk_Liquidated (HF < 1.0)",
+        "Baseline_State": {
+            "HF_before": "0.997803941101791825",
+            "P_Liq_before_6h": "1.000000000000000000"
+        },
+        "Optimization_Parameters": {
+            "LAMBDA": "100.000000000000000000",
+            "GRID_STEP_pct": 10
+        },
+        "Optimal_Action": {
+            "Z_Objective_Score": "33.311951277575012335",
+            "Allocation_pct": {
+                "Repay_USDC": 100,
+                "Add_WETH": 0,
+                "Add_cbBTC": 0
+            },
+            "Allocation_usd": {
+                "Repay_USDC": "510.142165311397254216",
+                "Add_WETH": "0.000000000000000000",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Allocation_quantity": {
+                "Repay_USDC": "510.243225901286188173",
+                "Add_WETH": "0.000000000000000000",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Result_HF_after": "1.330433315253314931",
+            "Metric1_HF_Improvement": "0.332629374151523106",
+            "Metric3_Operation_Cost_USD": "-0.049013862422701724",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "1.000000000000000000"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-24T16:00:00+00:00",
+        "wallet_id": "Balanced_75pct_Debt",
+        "available_usd": "1530.426495934191762647",
+        "Reason_For_Trigger": "High_Personal_Risk_Liquidated (HF < 1.0)",
+        "Baseline_State": {
+            "HF_before": "0.997803941101791825",
+            "P_Liq_before_6h": "1.000000000000000000"
+        },
+        "Optimization_Parameters": {
+            "LAMBDA": "100.000000000000000000",
+            "GRID_STEP_pct": 10
+        },
+        "Optimal_Action": {
+            "Z_Objective_Score": "299.563999921237885084",
+            "Allocation_pct": {
+                "Repay_USDC": 100,
+                "Add_WETH": 0,
+                "Add_cbBTC": 0
+            },
+            "Allocation_usd": {
+                "Repay_USDC": "1530.426495934191762647",
+                "Add_WETH": "0.000000000000000000",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Allocation_quantity": {
+                "Repay_USDC": "1530.729677703858564519",
+                "Add_WETH": "0.000000000000000000",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Result_HF_after": "3.991973524441489624",
+            "Metric1_HF_Improvement": "2.994169583339697799",
+            "Metric3_Operation_Cost_USD": "-0.147041587268105173",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "1.000000000000000000"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-24T16:00:00+00:00",
+        "wallet_id": "FullDebt_110pct_Debt",
+        "available_usd": "2244.625527370147918550",
+        "Reason_For_Trigger": "High_Personal_Risk_Liquidated (HF < 1.0)",
+        "Baseline_State": {
+            "HF_before": "0.997803941101791825",
+            "P_Liq_before_6h": "1.000000000000000000"
+        },
+        "Optimization_Parameters": {
+            "LAMBDA": "100.000000000000000000",
+            "GRID_STEP_pct": 10
+        },
+        "Optimal_Action": {
+            "Z_Objective_Score": "10836.478279094910169436",
+            "Allocation_pct": {
+                "Repay_USDC": 90,
+                "Add_WETH": 10,
+                "Add_cbBTC": 0
+            },
+            "Allocation_usd": {
+                "Repay_USDC": "2020.162974633133126695",
+                "Add_WETH": "224.462552737014791855",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Allocation_quantity": {
+                "Repay_USDC": "2020.563174569093305166",
+                "Add_WETH": "0.057594906344425176",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Result_HF_after": "109.359335176514744209",
+            "Metric1_HF_Improvement": "108.361531235412952384",
+            "Metric3_Operation_Cost_USD": "-0.325155553614931020",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "1.000000000000000000"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-24T16:00:00+00:00",
+        "wallet_id": "FullCollateral_100pct_Coll",
+        "available_usd": "2514.483832593670162533",
+        "Reason_For_Trigger": "High_Personal_Risk_Liquidated (HF < 1.0)",
+        "Baseline_State": {
+            "HF_before": "0.997803941101791825",
+            "P_Liq_before_6h": "1.000000000000000000"
+        },
+        "Optimization_Parameters": {
+            "LAMBDA": "100.000000000000000000",
+            "GRID_STEP_pct": 10
+        },
+        "Optimal_Action": {
+            "Z_Objective_Score": "8366.331136572459979334",
+            "Allocation_pct": {
+                "Repay_USDC": 80,
+                "Add_WETH": 20,
+                "Add_cbBTC": 0
+            },
+            "Allocation_usd": {
+                "Repay_USDC": "2011.587066074936130026",
+                "Add_WETH": "502.896766518734032507",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Allocation_quantity": {
+                "Repay_USDC": "2011.985567099422884399",
+                "Add_WETH": "0.129038415608219228",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Result_HF_after": "84.656246251086066375",
+            "Metric1_HF_Improvement": "83.658442309984274550",
+            "Metric3_Operation_Cost_USD": "-0.486905574032524335",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "1.000000000000000000"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-30T00:00:00+00:00",
+        "wallet_id": "Partial_25pct_Debt",
+        "available_usd": "510.142165311397254216",
+        "Reason_For_Trigger": "High_Personal_Risk_Liquidated (HF < 1.0)",
+        "Baseline_State": {
+            "HF_before": "0.997724995546982796",
+            "P_Liq_before_6h": "1.000000000000000000"
+        },
+        "Optimization_Parameters": {
+            "LAMBDA": "100.000000000000000000",
+            "GRID_STEP_pct": 10
+        },
+        "Optimal_Action": {
+            "Z_Objective_Score": "33.208771648534975044",
+            "Allocation_pct": {
+                "Repay_USDC": 100,
+                "Add_WETH": 0,
+                "Add_cbBTC": 0
+            },
+            "Allocation_usd": {
+                "Repay_USDC": "510.142165311397254216",
+                "Add_WETH": "0.000000000000000000",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Allocation_quantity": {
+                "Repay_USDC": "510.192589623988683353",
+                "Add_WETH": "0.000000000000000000",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Result_HF_after": "1.330284043011038913",
+            "Metric1_HF_Improvement": "0.332559047464056117",
+            "Metric3_Operation_Cost_USD": "0.047133097870636654",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "1.000000000000000000"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-30T00:00:00+00:00",
+        "wallet_id": "Balanced_75pct_Debt",
+        "available_usd": "1530.426495934191762647",
+        "Reason_For_Trigger": "High_Personal_Risk_Liquidated (HF < 1.0)",
+        "Baseline_State": {
+            "HF_before": "0.997724995546982796",
+            "P_Liq_before_6h": "1.000000000000000000"
+        },
+        "Optimization_Parameters": {
+            "LAMBDA": "100.000000000000000000",
+            "GRID_STEP_pct": 10
+        },
+        "Optimal_Action": {
+            "Z_Objective_Score": "299.133035662016545478",
+            "Allocation_pct": {
+                "Repay_USDC": 100,
+                "Add_WETH": 0,
+                "Add_cbBTC": 0
+            },
+            "Allocation_usd": {
+                "Repay_USDC": "1530.426495934191762647",
+                "Add_WETH": "0.000000000000000000",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Allocation_quantity": {
+                "Repay_USDC": "1530.577768871966050059",
+                "Add_WETH": "0.000000000000000000",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Result_HF_after": "3.990469345103267350",
+            "Metric1_HF_Improvement": "2.992744349556284554",
+            "Metric3_Operation_Cost_USD": "0.141399293611909961",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "1.000000000000000000"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-30T00:00:00+00:00",
+        "wallet_id": "FullDebt_110pct_Debt",
+        "available_usd": "2244.625527370147918550",
+        "Reason_For_Trigger": "High_Personal_Risk_Liquidated (HF < 1.0)",
+        "Baseline_State": {
+            "HF_before": "0.997724995546982796",
+            "P_Liq_before_6h": "1.000000000000000000"
+        },
+        "Optimization_Parameters": {
+            "LAMBDA": "100.000000000000000000",
+            "GRID_STEP_pct": 10
+        },
+        "Optimal_Action": {
+            "Z_Objective_Score": "10730.881064593009167530",
+            "Allocation_pct": {
+                "Repay_USDC": 90,
+                "Add_WETH": 10,
+                "Add_cbBTC": 0
+            },
+            "Allocation_usd": {
+                "Repay_USDC": "2020.162974633133126695",
+                "Add_WETH": "224.462552737014791855",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Allocation_quantity": {
+                "Repay_USDC": "2020.362654910995186079",
+                "Add_WETH": "0.057592048959243902",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Result_HF_after": "108.279910408043482477",
+            "Metric1_HF_Improvement": "107.282185412496499681",
+            "Metric3_Operation_Cost_USD": "-2.662523343359199437",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "1.000000000000000000"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-30T00:00:00+00:00",
+        "wallet_id": "FullCollateral_100pct_Coll",
+        "available_usd": "2514.483832593670162533",
+        "Reason_For_Trigger": "High_Personal_Risk_Liquidated (HF < 1.0)",
+        "Baseline_State": {
+            "HF_before": "0.997724995546982796",
+            "P_Liq_before_6h": "1.000000000000000000"
+        },
+        "Optimization_Parameters": {
+            "LAMBDA": "100.000000000000000000",
+            "GRID_STEP_pct": 10
+        },
+        "Optimal_Action": {
+            "Z_Objective_Score": "8313.185603233911173511",
+            "Allocation_pct": {
+                "Repay_USDC": 80,
+                "Add_WETH": 20,
+                "Add_cbBTC": 0
+            },
+            "Allocation_usd": {
+                "Repay_USDC": "2011.587066074936130026",
+                "Add_WETH": "502.896766518734032507",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Allocation_quantity": {
+                "Repay_USDC": "2011.785898678711829436",
+                "Add_WETH": "0.129032013784169562",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Result_HF_after": "84.067605382295036966",
+            "Metric1_HF_Improvement": "83.069880386748054170",
+            "Metric3_Operation_Cost_USD": "-6.197564559105756461",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "1.000000000000000000"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-30T05:00:00+00:00",
+        "wallet_id": "Partial_25pct_Debt",
+        "available_usd": "510.142165311397254216",
+        "Reason_For_Trigger": "High_Personal_Risk_Liquidated (HF < 1.0)",
+        "Baseline_State": {
+            "HF_before": "0.993237089587745148",
+            "P_Liq_before_6h": "1.000000000000000000"
+        },
+        "Optimization_Parameters": {
+            "LAMBDA": "100.000000000000000000",
+            "GRID_STEP_pct": 10
+        },
+        "Optimal_Action": {
+            "Z_Objective_Score": "33.087796722016988375",
+            "Allocation_pct": {
+                "Repay_USDC": 100,
+                "Add_WETH": 0,
+                "Add_cbBTC": 0
+            },
+            "Allocation_usd": {
+                "Repay_USDC": "510.142165311397254216",
+                "Add_WETH": "0.000000000000000000",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Allocation_quantity": {
+                "Repay_USDC": "510.210305309515585862",
+                "Add_WETH": "0.000000000000000000",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Result_HF_after": "1.324315567715501885",
+            "Metric1_HF_Improvement": "0.331078478127756737",
+            "Metric3_Operation_Cost_USD": "0.020051090758685312",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "1.000000000000000000"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-30T05:00:00+00:00",
+        "wallet_id": "Balanced_75pct_Debt",
+        "available_usd": "1530.426495934191762647",
+        "Reason_For_Trigger": "High_Personal_Risk_Liquidated (HF < 1.0)",
+        "Baseline_State": {
+            "HF_before": "0.993237089587745148",
+            "P_Liq_before_6h": "1.000000000000000000"
+        },
+        "Optimization_Parameters": {
+            "LAMBDA": "100.000000000000000000",
+            "GRID_STEP_pct": 10
+        },
+        "Optimal_Action": {
+            "Z_Objective_Score": "297.909483924985260888",
+            "Allocation_pct": {
+                "Repay_USDC": 100,
+                "Add_WETH": 0,
+                "Add_cbBTC": 0
+            },
+            "Allocation_usd": {
+                "Repay_USDC": "1530.426495934191762647",
+                "Add_WETH": "0.000000000000000000",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Allocation_quantity": {
+                "Repay_USDC": "1530.630915928546757586",
+                "Add_WETH": "0.000000000000000000",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Result_HF_after": "3.972933461560358316",
+            "Metric1_HF_Improvement": "2.979696371972613168",
+            "Metric3_Operation_Cost_USD": "0.060153272276055936",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "1.000000000000000000"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-30T05:00:00+00:00",
+        "wallet_id": "FullDebt_110pct_Debt",
+        "available_usd": "2244.625527370147918550",
+        "Reason_For_Trigger": "High_Personal_Risk_Liquidated (HF < 1.0)",
+        "Baseline_State": {
+            "HF_before": "0.993237089587745148",
+            "P_Liq_before_6h": "1.000000000000000000"
+        },
+        "Optimization_Parameters": {
+            "LAMBDA": "100.000000000000000000",
+            "GRID_STEP_pct": 10
+        },
+        "Optimal_Action": {
+            "Z_Objective_Score": "10723.970597035588308950",
+            "Allocation_pct": {
+                "Repay_USDC": 90,
+                "Add_WETH": 10,
+                "Add_cbBTC": 0
+            },
+            "Allocation_usd": {
+                "Repay_USDC": "2020.162974633133126695",
+                "Add_WETH": "224.462552737014791855",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Allocation_quantity": {
+                "Repay_USDC": "2020.432809025681720014",
+                "Add_WETH": "0.057844951831681587",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Result_HF_after": "108.203650821005684250",
+            "Metric1_HF_Improvement": "107.210413731417939102",
+            "Metric3_Operation_Cost_USD": "-2.929223893794398764",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "1.000000000000000000"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-30T05:00:00+00:00",
+        "wallet_id": "FullCollateral_100pct_Coll",
+        "available_usd": "2514.483832593670162533",
+        "Reason_For_Trigger": "High_Personal_Risk_Liquidated (HF < 1.0)",
+        "Baseline_State": {
+            "HF_before": "0.993237089587745148",
+            "P_Liq_before_6h": "1.000000000000000000"
+        },
+        "Optimization_Parameters": {
+            "LAMBDA": "100.000000000000000000",
+            "GRID_STEP_pct": 10
+        },
+        "Optimal_Action": {
+            "Z_Objective_Score": "8302.809827641069634728",
+            "Allocation_pct": {
+                "Repay_USDC": 80,
+                "Add_WETH": 20,
+                "Add_cbBTC": 0
+            },
+            "Allocation_usd": {
+                "Repay_USDC": "2011.587066074936130026",
+                "Add_WETH": "502.896766518734032507",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Allocation_quantity": {
+                "Repay_USDC": "2011.855754978182419104",
+                "Add_WETH": "0.129598629619378491",
+                "Add_cbBTC": "0.000000000000000000"
+            },
+            "Result_HF_after": "83.954719300667156635",
+            "Metric1_HF_Improvement": "82.961482211079411488",
+            "Metric3_Operation_Cost_USD": "-6.661606533128485976",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "1.000000000000000000"
+        }
+    }
+]

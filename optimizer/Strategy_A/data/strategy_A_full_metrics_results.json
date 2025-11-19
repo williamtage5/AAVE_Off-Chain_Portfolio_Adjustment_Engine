@@ -1,0 +1,2042 @@
+[
+    {
+        "datetime_utc": "2025-10-21T18:00:00+00:00",
+        "wallet_id": "Partial_25pct_Debt",
+        "available_usd": "510.142165311397254216",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.029663439921518098",
+            "P_Liq_before_6h": "0.028962448313053238",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Repay_Debt",
+        "Decision_Reason": "Both succeeded. 'Repay Debt' chosen (Better HF Gain).",
+        "HF_after_Action": "1.372868159344259117",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "510.192628030256715797",
+            "Operation_USD_Value": "510.142165311397254216",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.343204719422741020",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.028962448313053238",
+            "Metric3_Operation_Cost_USD": "-0.048385711537732805"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.126798608930249851",
+            "Operation_USD_Value": "510.142165311397254216",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.202114145446460127",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.028962448313053238",
+            "Metric3_Operation_Cost_USD": "6.102723037771266395"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-21T18:00:00+00:00",
+        "wallet_id": "Balanced_75pct_Debt",
+        "available_usd": "1530.426495934191762647",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.029663439921518098",
+            "P_Liq_before_6h": "0.028962448313053238",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Repay_Debt",
+        "Decision_Reason": "Both succeeded. 'Repay Debt' chosen (Better HF Gain).",
+        "HF_after_Action": "4.118210267259206986",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "1530.577884090770147391",
+            "Operation_USD_Value": "1530.426495934191762647",
+            "Success": true,
+            "Metric1_HF_Improvement": "3.088546827337688888",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.028962448313053238",
+            "Metric3_Operation_Cost_USD": "-0.145157134613198414"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.380395826790749553",
+            "Operation_USD_Value": "1530.426495934191762647",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.606342436339380725",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.028962448313053238",
+            "Metric3_Operation_Cost_USD": "18.308169113313799185"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-21T18:00:00+00:00",
+        "wallet_id": "FullDebt_110pct_Debt",
+        "available_usd": "2244.625527370147918550",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.029663439921518098",
+            "P_Liq_before_6h": "0.028962448313053238",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Add_Collateral",
+        "Decision_Reason": "'Add Collateral' succeeded while 'Repay Debt' did not.",
+        "HF_after_Action": "1.918965679885943242",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "2244.847563333129549508",
+            "Operation_USD_Value": "2244.625527370147918550",
+            "Success": false,
+            "Metric1_HF_Improvement": "-11.330365230254707931",
+            "Metric2_P_Liq_After": "1.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "-0.971037551686946762",
+            "Metric3_Operation_Cost_USD": "-0.212897130766024341"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.557913879293099344",
+            "Operation_USD_Value": "2244.625527370147918550",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.889302239964425144",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.028962448313053238",
+            "Metric3_Operation_Cost_USD": "26.851981366193572138"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-21T18:00:00+00:00",
+        "wallet_id": "FullCollateral_100pct_Coll",
+        "available_usd": "2514.483832593670162533",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.029663439921518098",
+            "P_Liq_before_6h": "0.028962448313053238",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Add_Collateral",
+        "Decision_Reason": "'Add Collateral' succeeded while 'Repay Debt' did not.",
+        "HF_after_Action": "2.025881329014042685",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "2514.732562652365432271",
+            "Operation_USD_Value": "2514.483832593670162533",
+            "Success": false,
+            "Metric1_HF_Improvement": "-5.463999638773401416",
+            "Metric2_P_Liq_After": "1.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "-0.971037551686946762",
+            "Metric3_Operation_Cost_USD": "-0.238492517700245839"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.624988628328459919",
+            "Operation_USD_Value": "2514.483832593670162533",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.996217889092524587",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.028962448313053238",
+            "Metric3_Operation_Cost_USD": "30.080239307225026804"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-21T21:00:00+00:00",
+        "wallet_id": "Partial_25pct_Debt",
+        "available_usd": "510.142165311397254216",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.012563693496675965",
+            "P_Liq_before_6h": "0.337319067908464440",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Repay_Debt",
+        "Decision_Reason": "Both succeeded. 'Repay Debt' chosen (Better HF Gain).",
+        "HF_after_Action": "1.350112286655117200",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "510.241963504728983979",
+            "Operation_USD_Value": "510.142165311397254216",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.337548593158441235",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.337319067908464440",
+            "Metric3_Operation_Cost_USD": "0.049495248312786461"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.128967312886415966",
+            "Operation_USD_Value": "510.142165311397254216",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.202133689823849051",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.337319067908464440",
+            "Metric3_Operation_Cost_USD": "7.331040234629559237"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-21T21:00:00+00:00",
+        "wallet_id": "Balanced_75pct_Debt",
+        "available_usd": "1530.426495934191762647",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.012563693496675965",
+            "P_Liq_before_6h": "0.337319067908464440",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Repay_Debt",
+        "Decision_Reason": "Both succeeded. 'Repay Debt' chosen (Better HF Gain).",
+        "HF_after_Action": "4.050993667595005479",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "1530.725890514186951937",
+            "Operation_USD_Value": "1530.426495934191762647",
+            "Success": true,
+            "Metric1_HF_Improvement": "3.038429974098329514",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.337319067908464440",
+            "Metric3_Operation_Cost_USD": "0.148485744938359383"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.386901938659247898",
+            "Operation_USD_Value": "1530.426495934191762647",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.606401069471547058",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.337319067908464440",
+            "Metric3_Operation_Cost_USD": "21.993120703888677712"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-21T21:00:00+00:00",
+        "wallet_id": "FullDebt_110pct_Debt",
+        "available_usd": "2244.625527370147918550",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.012563693496675965",
+            "P_Liq_before_6h": "0.337319067908464440",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Add_Collateral",
+        "Decision_Reason": "'Add Collateral' succeeded while 'Repay Debt' did not.",
+        "HF_after_Action": "1.901951928721611627",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "2245.064639420807529508",
+            "Operation_USD_Value": "2244.625527370147918550",
+            "Success": false,
+            "Metric1_HF_Improvement": "-11.131433198481745217",
+            "Metric2_P_Liq_After": "1.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "-0.662680932091535560",
+            "Metric3_Operation_Cost_USD": "0.217779092576260429"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.567456176700230250",
+            "Operation_USD_Value": "2244.625527370147918550",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.889388235224935662",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.337319067908464440",
+            "Metric3_Operation_Cost_USD": "32.256577032370060645"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-21T21:00:00+00:00",
+        "wallet_id": "FullCollateral_100pct_Coll",
+        "available_usd": "2514.483832593670162533",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.012563693496675965",
+            "P_Liq_before_6h": "0.337319067908464440",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Add_Collateral",
+        "Decision_Reason": "'Add Collateral' succeeded while 'Repay Debt' did not.",
+        "HF_after_Action": "2.008877916560990789",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "2514.975736538723428957",
+            "Operation_USD_Value": "2514.483832593670162533",
+            "Success": false,
+            "Metric1_HF_Improvement": "-5.371021806812159252",
+            "Metric2_P_Liq_After": "1.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "-0.662680932091535560",
+            "Metric3_Operation_Cost_USD": "0.243961409456796762"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.635678140794329002",
+            "Operation_USD_Value": "2514.483832593670162533",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.996314223064314824",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.337319067908464440",
+            "Metric3_Operation_Cost_USD": "36.134598156216940843"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-24T08:00:00+00:00",
+        "wallet_id": "Partial_25pct_Debt",
+        "available_usd": "510.142165311397254216",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.009902636199986325",
+            "P_Liq_before_6h": "0.445399165374387400",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Repay_Debt",
+        "Decision_Reason": "Both succeeded. 'Repay Debt' chosen (Better HF Gain).",
+        "HF_after_Action": "1.346520891166490777",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "510.192804060220442299",
+            "Operation_USD_Value": "510.142165311397254216",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.336618254966504451",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.445399165374387400",
+            "Metric3_Operation_Cost_USD": "-0.048979263802501990"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.129305120699245953",
+            "Operation_USD_Value": "510.142165311397254216",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.202114215181191253",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.445399165374387400",
+            "Metric3_Operation_Cost_USD": "4.624299346352030540"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-24T08:00:00+00:00",
+        "wallet_id": "Balanced_75pct_Debt",
+        "available_usd": "1530.426495934191762647",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.009902636199986325",
+            "P_Liq_before_6h": "0.445399165374387400",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Repay_Debt",
+        "Decision_Reason": "Both succeeded. 'Repay Debt' chosen (Better HF Gain).",
+        "HF_after_Action": "4.039179743937247172",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "1530.578412180661326896",
+            "Operation_USD_Value": "1530.426495934191762647",
+            "Success": true,
+            "Metric1_HF_Improvement": "3.029277107737260846",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.445399165374387400",
+            "Metric3_Operation_Cost_USD": "-0.146937791407505971"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.387915362097737858",
+            "Operation_USD_Value": "1530.426495934191762647",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.606342645543573920",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.445399165374387400",
+            "Metric3_Operation_Cost_USD": "13.872898039056091619"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-24T08:00:00+00:00",
+        "wallet_id": "FullDebt_110pct_Debt",
+        "available_usd": "2244.625527370147918550",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.009902636199986325",
+            "P_Liq_before_6h": "0.445399165374387400",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Add_Collateral",
+        "Decision_Reason": "'Add Collateral' succeeded while 'Repay Debt' did not.",
+        "HF_after_Action": "1.899205182997228113",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "2244.848337864969946115",
+            "Operation_USD_Value": "2244.625527370147918550",
+            "Success": false,
+            "Metric1_HF_Improvement": "-11.112879972400045923",
+            "Metric2_P_Liq_After": "1.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "-0.554600834625612600",
+            "Metric3_Operation_Cost_USD": "-0.215508760731008757"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.568942531076682192",
+            "Operation_USD_Value": "2244.625527370147918550",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.889302546797241788",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.445399165374387400",
+            "Metric3_Operation_Cost_USD": "20.346917123948934374"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-24T08:00:00+00:00",
+        "wallet_id": "FullCollateral_100pct_Coll",
+        "available_usd": "2514.483832593670162533",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.009902636199986325",
+            "P_Liq_before_6h": "0.445399165374387400",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Add_Collateral",
+        "Decision_Reason": "'Add Collateral' succeeded while 'Repay Debt' did not.",
+        "HF_after_Action": "2.006120869014057036",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "2514.733430301675643975",
+            "Operation_USD_Value": "2514.483832593670162533",
+            "Success": false,
+            "Metric1_HF_Improvement": "-5.359129232115839672",
+            "Metric2_P_Liq_After": "1.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "-0.554600834625612600",
+            "Metric3_Operation_Cost_USD": "-0.241418128784854866"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.637343190934550871",
+            "Operation_USD_Value": "2514.483832593670162533",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.996218232814070711",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.445399165374387400",
+            "Metric3_Operation_Cost_USD": "22.793108929503888354"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-24T15:00:00+00:00",
+        "wallet_id": "Partial_25pct_Debt",
+        "available_usd": "510.142165311397254216",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "0.998233887340446602",
+            "P_Liq_before_6h": "1.000000000000000000",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Repay_Debt",
+        "Decision_Reason": "Both succeeded. 'Repay Debt' chosen (Better HF Gain).",
+        "HF_after_Action": "1.330963963674913147",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "510.194207038755206034",
+            "Operation_USD_Value": "510.142165311397254216",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.332730076334466545",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "1.000000000000000000",
+            "Metric3_Operation_Cost_USD": "-0.048253301562780720"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.130821129725184257",
+            "Operation_USD_Value": "510.142165311397254216",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.202114770974811211",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "1.000000000000000000",
+            "Metric3_Operation_Cost_USD": "5.997210553947005161"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-24T15:00:00+00:00",
+        "wallet_id": "Balanced_75pct_Debt",
+        "available_usd": "1530.426495934191762647",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "0.998233887340446602",
+            "P_Liq_before_6h": "1.000000000000000000",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Repay_Debt",
+        "Decision_Reason": "Both succeeded. 'Repay Debt' chosen (Better HF Gain).",
+        "HF_after_Action": "3.992542658694969446",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "1530.582621116265618101",
+            "Operation_USD_Value": "1530.426495934191762647",
+            "Success": true,
+            "Metric1_HF_Improvement": "2.994308771354522844",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "1.000000000000000000",
+            "Metric3_Operation_Cost_USD": "-0.144759904688342159"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.392463389175552770",
+            "Operation_USD_Value": "1530.426495934191762647",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.606344312924433892",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "1.000000000000000000",
+            "Metric3_Operation_Cost_USD": "17.991631661841015482"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-24T15:00:00+00:00",
+        "wallet_id": "FullDebt_110pct_Debt",
+        "available_usd": "2244.625527370147918550",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "0.998233887340446602",
+            "P_Liq_before_6h": "1.000000000000000000",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Add_Collateral",
+        "Decision_Reason": "'Add Collateral' succeeded while 'Repay Debt' did not.",
+        "HF_after_Action": "1.887538879629616370",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "2244.854510970522906549",
+            "Operation_USD_Value": "2244.625527370147918550",
+            "Success": false,
+            "Metric1_HF_Improvement": "-10.984175913031831279",
+            "Metric2_P_Liq_After": "1.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000000000000000000",
+            "Metric3_Operation_Cost_USD": "-0.212314526876235167"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.575612970790810729",
+            "Operation_USD_Value": "2244.625527370147918550",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.889304992289169768",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "1.000000000000000000",
+            "Metric3_Operation_Cost_USD": "26.387726437366822707"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-24T15:00:00+00:00",
+        "wallet_id": "FullCollateral_100pct_Coll",
+        "available_usd": "2514.483832593670162533",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "0.998233887340446602",
+            "P_Liq_before_6h": "1.000000000000000000",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Add_Collateral",
+        "Decision_Reason": "'Add Collateral' succeeded while 'Repay Debt' did not.",
+        "HF_after_Action": "1.994454859653752564",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "2514.740345563896687739",
+            "Operation_USD_Value": "2514.483832593670162533",
+            "Success": false,
+            "Metric1_HF_Improvement": "-5.297145349512927628",
+            "Metric2_P_Liq_After": "1.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000000000000000000",
+            "Metric3_Operation_Cost_USD": "-0.237839870724695567"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.644815578917734074",
+            "Operation_USD_Value": "2514.483832593670162533",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.996220972313305963",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "1.000000000000000000",
+            "Metric3_Operation_Cost_USD": "29.560169701626050743"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-26T03:00:00+00:00",
+        "wallet_id": "Partial_25pct_Debt",
+        "available_usd": "510.142165311397254216",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.006296425964529062",
+            "P_Liq_before_6h": "0.622357585785522100",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Repay_Debt",
+        "Decision_Reason": "Both succeeded. 'Repay Debt' chosen (Better HF Gain).",
+        "HF_after_Action": "1.341756215721845102",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "510.242482695958581683",
+            "Operation_USD_Value": "510.142165311397254216",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.335459789757316040",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.622357585785522100",
+            "Metric3_Operation_Cost_USD": "0.020758682087946738"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.129804267127024692",
+            "Operation_USD_Value": "510.142165311397254216",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.202133895502813734",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.622357585785522100",
+            "Metric3_Operation_Cost_USD": "2.442078289455576782"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-26T03:00:00+00:00",
+        "wallet_id": "Balanced_75pct_Debt",
+        "available_usd": "1530.426495934191762647",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.006296425964529062",
+            "P_Liq_before_6h": "0.622357585785522100",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Repay_Debt",
+        "Decision_Reason": "Both succeeded. 'Repay Debt' chosen (Better HF Gain).",
+        "HF_after_Action": "4.025932316703022120",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "1530.727448087875745047",
+            "Operation_USD_Value": "1530.426495934191762647",
+            "Success": true,
+            "Metric1_HF_Improvement": "3.019635890738493058",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.622357585785522100",
+            "Metric3_Operation_Cost_USD": "0.062276046263840215"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.389412801381074075",
+            "Operation_USD_Value": "1530.426495934191762647",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.606401686508441779",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.622357585785522100",
+            "Metric3_Operation_Cost_USD": "7.326234868366730345"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-26T03:00:00+00:00",
+        "wallet_id": "FullDebt_110pct_Debt",
+        "available_usd": "2244.625527370147918550",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.006296425964529062",
+            "P_Liq_before_6h": "0.622357585785522100",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Add_Collateral",
+        "Decision_Reason": "'Add Collateral' succeeded while 'Repay Debt' did not.",
+        "HF_after_Action": "1.895685566176910472",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "2245.066923862217759404",
+            "Operation_USD_Value": "2244.625527370147918550",
+            "Success": false,
+            "Metric1_HF_Improvement": "-11.062422653519391427",
+            "Metric2_P_Liq_After": "1.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "-0.377642414214477900",
+            "Metric3_Operation_Cost_USD": "0.091338201186965649"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.571138775358908644",
+            "Operation_USD_Value": "2244.625527370147918550",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.889389140212381410",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.622357585785522100",
+            "Metric3_Operation_Cost_USD": "10.745144473604537839"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-26T03:00:00+00:00",
+        "wallet_id": "FullCollateral_100pct_Coll",
+        "available_usd": "2514.483832593670162533",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.006296425964529062",
+            "P_Liq_before_6h": "0.622357585785522100",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Add_Collateral",
+        "Decision_Reason": "'Add Collateral' succeeded while 'Repay Debt' did not.",
+        "HF_after_Action": "2.002611662817680097",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "2514.978295625271491420",
+            "Operation_USD_Value": "2514.483832593670162533",
+            "Success": false,
+            "Metric1_HF_Improvement": "-5.337754464524675027",
+            "Metric2_P_Liq_After": "1.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "-0.377642414214477900",
+            "Metric3_Operation_Cost_USD": "0.102319263227794449"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.639803476925575349",
+            "Operation_USD_Value": "2514.483832593670162533",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.996315236853151035",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.622357585785522100",
+            "Metric3_Operation_Cost_USD": "12.036970856968416325"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-27T08:00:00+00:00",
+        "wallet_id": "Partial_25pct_Debt",
+        "available_usd": "510.142165311397254216",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.074845845957687063",
+            "P_Liq_before_6h": "0.000000131882761139",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Repay_Debt",
+        "Decision_Reason": "Both succeeded. 'Repay Debt' chosen (Better HF Gain).",
+        "HF_after_Action": "1.433133129754490337",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "510.216641107700479179",
+            "Operation_USD_Value": "510.142165311397254216",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.358287283796803274",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000000131882761139",
+            "Metric3_Operation_Cost_USD": "-0.028379820879727881"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.121428982004961775",
+            "Operation_USD_Value": "510.142165311397254216",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.202123658289963856",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000000131882761139",
+            "Metric3_Operation_Cost_USD": "4.020246298855904583"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-27T08:00:00+00:00",
+        "wallet_id": "Balanced_75pct_Debt",
+        "available_usd": "1530.426495934191762647",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.074845845957687063",
+            "P_Liq_before_6h": "0.000000131882761139",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Repay_Debt",
+        "Decision_Reason": "Both succeeded. 'Repay Debt' chosen (Better HF Gain).",
+        "HF_after_Action": "4.299527437015416956",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "1530.649923323101437536",
+            "Operation_USD_Value": "1530.426495934191762647",
+            "Success": true,
+            "Metric1_HF_Improvement": "3.224681591057729893",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000000131882761139",
+            "Metric3_Operation_Cost_USD": "-0.085139462639183644"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.364286946014885325",
+            "Operation_USD_Value": "1530.426495934191762647",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.606370974869891433",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000000131882761139",
+            "Metric3_Operation_Cost_USD": "12.060738896567713748"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-27T08:00:00+00:00",
+        "wallet_id": "FullDebt_110pct_Debt",
+        "available_usd": "2244.625527370147918550",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.074845845957687063",
+            "P_Liq_before_6h": "0.000000131882761139",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Add_Collateral",
+        "Decision_Reason": "'Add Collateral' succeeded while 'Repay Debt' did not.",
+        "HF_after_Action": "1.964189942433527800",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "2244.953220873882108387",
+            "Operation_USD_Value": "2244.625527370147918550",
+            "Success": false,
+            "Metric1_HF_Improvement": "-11.821984024446540666",
+            "Metric2_P_Liq_After": "1.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "-0.999999868117238861",
+            "Metric3_Operation_Cost_USD": "-0.124871211870802678"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.534287520821831811",
+            "Operation_USD_Value": "2244.625527370147918550",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.889344096475840737",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000000131882761139",
+            "Metric3_Operation_Cost_USD": "17.689083714965980164"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-27T08:00:00+00:00",
+        "wallet_id": "FullCollateral_100pct_Coll",
+        "available_usd": "2514.483832593670162533",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.074845845957687063",
+            "P_Liq_before_6h": "0.000000131882761139",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Add_Collateral",
+        "Decision_Reason": "'Add Collateral' succeeded while 'Repay Debt' did not.",
+        "HF_after_Action": "2.071110623727169061",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "2514.850922786282819279",
+            "Operation_USD_Value": "2514.483832593670162533",
+            "Success": false,
+            "Metric1_HF_Improvement": "-5.702608205542531128",
+            "Metric2_P_Liq_After": "1.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "-0.999999868117238861",
+            "Metric3_Operation_Cost_USD": "-0.139883753248313851"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.598521809843744327",
+            "Operation_USD_Value": "2514.483832593670162533",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.996264777769481998",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000000131882761139",
+            "Metric3_Operation_Cost_USD": "19.815739628868249960"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-27T13:00:00+00:00",
+        "wallet_id": "Partial_25pct_Debt",
+        "available_usd": "510.142165311397254216",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.061562443528452748",
+            "P_Liq_before_6h": "0.000011719622966835",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Repay_Debt",
+        "Decision_Reason": "Both succeeded. 'Repay Debt' chosen (Better HF Gain).",
+        "HF_after_Action": "1.415437639775965504",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "510.233704426091705042",
+            "Operation_USD_Value": "510.142165311397254216",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.353875196247512755",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000011719622966835",
+            "Metric3_Operation_Cost_USD": "-0.009145391741460996"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.122978050025918713",
+            "Operation_USD_Value": "510.142165311397254216",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.202130417968221530",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000011719622966835",
+            "Metric3_Operation_Cost_USD": "0.907987327794097085"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-27T13:00:00+00:00",
+        "wallet_id": "Balanced_75pct_Debt",
+        "available_usd": "1530.426495934191762647",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.061562443528452748",
+            "P_Liq_before_6h": "0.000011719622966835",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Repay_Debt",
+        "Decision_Reason": "Both succeeded. 'Repay Debt' chosen (Better HF Gain).",
+        "HF_after_Action": "4.246818148658153358",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "1530.701113278275115126",
+            "Operation_USD_Value": "1530.426495934191762647",
+            "Success": true,
+            "Metric1_HF_Improvement": "3.185255705129700610",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000011719622966835",
+            "Metric3_Operation_Cost_USD": "-0.027436175224382987"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.368934150077756138",
+            "Operation_USD_Value": "1530.426495934191762647",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.606391253904665247",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000011719622966835",
+            "Metric3_Operation_Cost_USD": "2.723961983382291254"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-27T13:00:00+00:00",
+        "wallet_id": "FullDebt_110pct_Debt",
+        "available_usd": "2244.625527370147918550",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.061562443528452748",
+            "P_Liq_before_6h": "0.000011719622966835",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Add_Collateral",
+        "Decision_Reason": "'Add Collateral' succeeded while 'Repay Debt' did not.",
+        "HF_after_Action": "1.950936282588628597",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "2245.028299474803502186",
+            "Operation_USD_Value": "2244.625527370147918550",
+            "Success": false,
+            "Metric1_HF_Improvement": "-11.671980031273876752",
+            "Metric2_P_Liq_After": "1.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "-0.999988280377033165",
+            "Metric3_Operation_Cost_USD": "-0.040239723662428381"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.541103420114042336",
+            "Operation_USD_Value": "2244.625527370147918550",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.889373839060175849",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000011719622966835",
+            "Metric3_Operation_Cost_USD": "3.995144242294027173"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-27T13:00:00+00:00",
+        "wallet_id": "FullCollateral_100pct_Coll",
+        "available_usd": "2514.483832593670162533",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.061562443528452748",
+            "P_Liq_before_6h": "0.000011719622966835",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Add_Collateral",
+        "Decision_Reason": "'Add Collateral' succeeded while 'Repay Debt' did not.",
+        "HF_after_Action": "2.057860539660636395",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "2514.935027651833279401",
+            "Operation_USD_Value": "2514.483832593670162533",
+            "Success": false,
+            "Metric1_HF_Improvement": "-5.631322116664423993",
+            "Metric2_P_Liq_After": "1.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "-0.999988280377033165",
+            "Metric3_Operation_Cost_USD": "-0.045077512192316686"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.606157145166215603",
+            "Operation_USD_Value": "2514.483832593670162533",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.996298096132183647",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000011719622966835",
+            "Metric3_Operation_Cost_USD": "4.475457257183477919"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-27T15:00:00+00:00",
+        "wallet_id": "Partial_25pct_Debt",
+        "available_usd": "510.142165311397254216",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.060653242836629540",
+            "P_Liq_before_6h": "0.000015521907268046",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Repay_Debt",
+        "Decision_Reason": "Both succeeded. 'Repay Debt' chosen (Better HF Gain).",
+        "HF_after_Action": "1.414234744838737653",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "510.243867850730002738",
+            "Operation_USD_Value": "510.142165311397254216",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.353581502002108113",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000015521907268046",
+            "Metric3_Operation_Cost_USD": "0.014564872284956705"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.123082534231598543",
+            "Operation_USD_Value": "510.142165311397254216",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.202134444235503587",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000015521907268046",
+            "Metric3_Operation_Cost_USD": "3.829924064536114748"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-27T15:00:00+00:00",
+        "wallet_id": "Balanced_75pct_Debt",
+        "available_usd": "1530.426495934191762647",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.060653242836629540",
+            "P_Liq_before_6h": "0.000015521907268046",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Repay_Debt",
+        "Decision_Reason": "Both succeeded. 'Repay Debt' chosen (Better HF Gain).",
+        "HF_after_Action": "4.243434481246263475",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "1530.731603552190008213",
+            "Operation_USD_Value": "1530.426495934191762647",
+            "Success": true,
+            "Metric1_HF_Improvement": "3.182781238409633935",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000015521907268046",
+            "Metric3_Operation_Cost_USD": "0.043694616854870115"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.369247602694795630",
+            "Operation_USD_Value": "1530.426495934191762647",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.606403332706510611",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000015521907268046",
+            "Metric3_Operation_Cost_USD": "11.489772193608344243"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-27T15:00:00+00:00",
+        "wallet_id": "FullDebt_110pct_Debt",
+        "available_usd": "2244.625527370147918550",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.060653242836629540",
+            "P_Liq_before_6h": "0.000015521907268046",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Add_Collateral",
+        "Decision_Reason": "'Add Collateral' succeeded while 'Repay Debt' did not.",
+        "HF_after_Action": "1.950044797472845067",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "2245.073018543212012047",
+            "Operation_USD_Value": "2244.625527370147918550",
+            "Success": false,
+            "Metric1_HF_Improvement": "-11.659661962367574246",
+            "Metric2_P_Liq_After": "1.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "-0.999984478092731954",
+            "Metric3_Operation_Cost_USD": "0.064085438053809502"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.541563150619033591",
+            "Operation_USD_Value": "2244.625527370147918550",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.889391554636215528",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000015521907268046",
+            "Metric3_Operation_Cost_USD": "16.851665883958904890"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-27T15:00:00+00:00",
+        "wallet_id": "FullCollateral_100pct_Coll",
+        "available_usd": "2514.483832593670162533",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.060653242836629540",
+            "P_Liq_before_6h": "0.000015521907268046",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Add_Collateral",
+        "Decision_Reason": "'Add Collateral' succeeded while 'Repay Debt' did not.",
+        "HF_after_Action": "2.056971184385785227",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "2514.985123034404104851",
+            "Operation_USD_Value": "2514.483832593670162533",
+            "Success": false,
+            "Metric1_HF_Improvement": "-5.626016631143320222",
+            "Metric2_P_Liq_After": "1.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "-0.999984478092731954",
+            "Metric3_Operation_Cost_USD": "0.071790058486853434"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.606672146402749258",
+            "Operation_USD_Value": "2514.483832593670162533",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.996317941549155688",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000015521907268046",
+            "Metric3_Operation_Cost_USD": "18.877643910220693629"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-27T20:00:00+00:00",
+        "wallet_id": "Partial_25pct_Debt",
+        "available_usd": "510.142165311397254216",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.073904547742670745",
+            "P_Liq_before_6h": "0.000000185529607274",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Repay_Debt",
+        "Decision_Reason": "Both succeeded. 'Repay Debt' chosen (Better HF Gain).",
+        "HF_after_Action": "1.431893814085454717",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "510.233480633584385847",
+            "Operation_USD_Value": "510.142165311397254216",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.357989266342783972",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000000185529607274",
+            "Metric3_Operation_Cost_USD": "-0.009120896612892196"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.121526606642038545",
+            "Operation_USD_Value": "510.142165311397254216",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.202130329312233997",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000000185529607274",
+            "Metric3_Operation_Cost_USD": "2.362675709741881203"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-27T20:00:00+00:00",
+        "wallet_id": "Balanced_75pct_Debt",
+        "available_usd": "1530.426495934191762647",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.073904547742670745",
+            "P_Liq_before_6h": "0.000000185529607274",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Repay_Debt",
+        "Decision_Reason": "Both succeeded. 'Repay Debt' chosen (Better HF Gain).",
+        "HF_after_Action": "4.296187519606936641",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "1530.700441900753157541",
+            "Operation_USD_Value": "1530.426495934191762647",
+            "Success": true,
+            "Metric1_HF_Improvement": "3.222282971864265895",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000000185529607274",
+            "Metric3_Operation_Cost_USD": "-0.027362689838676588"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.364579819926115636",
+            "Operation_USD_Value": "1530.426495934191762647",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.606390987936702239",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000000185529607274",
+            "Metric3_Operation_Cost_USD": "7.088027129225643610"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-27T20:00:00+00:00",
+        "wallet_id": "FullDebt_110pct_Debt",
+        "available_usd": "2244.625527370147918550",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.073904547742670745",
+            "P_Liq_before_6h": "0.000000185529607274",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Add_Collateral",
+        "Decision_Reason": "'Add Collateral' succeeded while 'Repay Debt' did not.",
+        "HF_after_Action": "1.963277996716500755",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "2245.027314787771297727",
+            "Operation_USD_Value": "2244.625527370147918550",
+            "Success": false,
+            "Metric1_HF_Improvement": "-11.807734405230905122",
+            "Metric2_P_Liq_After": "1.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "-0.999999814470392726",
+            "Metric3_Operation_Cost_USD": "-0.040131945096725663"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.534717069224969600",
+            "Operation_USD_Value": "2244.625527370147918550",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.889373448973830009",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000000185529607274",
+            "Metric3_Operation_Cost_USD": "10.395773122864277294"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-27T20:00:00+00:00",
+        "wallet_id": "FullCollateral_100pct_Coll",
+        "available_usd": "2514.483832593670162533",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.073904547742670745",
+            "P_Liq_before_6h": "0.000000185529607274",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Add_Collateral",
+        "Decision_Reason": "'Add Collateral' succeeded while 'Repay Debt' did not.",
+        "HF_after_Action": "2.070202206890690209",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "2514.933924581591739528",
+            "Operation_USD_Value": "2514.483832593670162533",
+            "Success": false,
+            "Metric1_HF_Improvement": "-5.696804635518519528",
+            "Metric2_P_Liq_After": "1.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "-0.999999814470392726",
+            "Metric3_Operation_Cost_USD": "-0.044956776034924260"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.599003000359416604",
+            "Operation_USD_Value": "2514.483832593670162533",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.996297659148019463",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000000185529607274",
+            "Metric3_Operation_Cost_USD": "11.645596615565640299"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-28T03:00:00+00:00",
+        "wallet_id": "Partial_25pct_Debt",
+        "available_usd": "510.142165311397254216",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.047877194521367405",
+            "P_Liq_before_6h": "0.000561763522183768",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Repay_Debt",
+        "Decision_Reason": "Both succeeded. 'Repay Debt' chosen (Better HF Gain).",
+        "HF_after_Action": "1.397197152009548512",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "510.241134294974455827",
+            "Operation_USD_Value": "510.142165311397254216",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.349319957488181107",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000561763522183768",
+            "Metric3_Operation_Cost_USD": "0.036483526063136734"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.124596661419662207",
+            "Operation_USD_Value": "510.142165311397254216",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.202133361330233257",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000561763522183768",
+            "Metric3_Operation_Cost_USD": "5.273570479818961359"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-28T03:00:00+00:00",
+        "wallet_id": "Balanced_75pct_Debt",
+        "available_usd": "1530.426495934191762647",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.047877194521367405",
+            "P_Liq_before_6h": "0.000561763522183768",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Repay_Debt",
+        "Decision_Reason": "Both succeeded. 'Repay Debt' chosen (Better HF Gain).",
+        "HF_after_Action": "4.192252997012424977",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "1530.723402884923367479",
+            "Operation_USD_Value": "1530.426495934191762647",
+            "Success": true,
+            "Metric1_HF_Improvement": "3.144375802491057572",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000561763522183768",
+            "Metric3_Operation_Cost_USD": "0.109450578189410202"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.373789984258986621",
+            "Operation_USD_Value": "1530.426495934191762647",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.606400083990700463",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000561763522183768",
+            "Metric3_Operation_Cost_USD": "15.820711439456884078"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-28T03:00:00+00:00",
+        "wallet_id": "FullDebt_110pct_Debt",
+        "available_usd": "2244.625527370147918550",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.047877194521367405",
+            "P_Liq_before_6h": "0.000561763522183768",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Add_Collateral",
+        "Decision_Reason": "'Add Collateral' succeeded while 'Repay Debt' did not.",
+        "HF_after_Action": "1.937263984374394913",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "2245.060990897887605637",
+            "Operation_USD_Value": "2244.625527370147918550",
+            "Success": false,
+            "Metric1_HF_Improvement": "-11.519832780837920581",
+            "Metric2_P_Liq_After": "1.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "-0.999438236477816232",
+            "Metric3_Operation_Cost_USD": "0.160527514677801630"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.548225310246513711",
+            "Operation_USD_Value": "2244.625527370147918550",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.889386789853027507",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000561763522183768",
+            "Metric3_Operation_Cost_USD": "23.203710111203429981"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-28T03:00:00+00:00",
+        "wallet_id": "FullCollateral_100pct_Coll",
+        "available_usd": "2514.483832593670162533",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.047877194521367405",
+            "P_Liq_before_6h": "0.000561763522183768",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Add_Collateral",
+        "Decision_Reason": "'Add Collateral' succeeded while 'Repay Debt' did not.",
+        "HF_after_Action": "2.044189798445094760",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "2514.971649375059321181",
+            "Operation_USD_Value": "2514.483832593670162533",
+            "Success": false,
+            "Metric1_HF_Improvement": "-5.558376889455060433",
+            "Metric2_P_Liq_After": "1.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "-0.999438236477816232",
+            "Metric3_Operation_Cost_USD": "0.179826806485932282"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.614135258832502257",
+            "Operation_USD_Value": "2514.483832593670162533",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.996312603923727354",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000561763522183768",
+            "Metric3_Operation_Cost_USD": "25.993357564265956914"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-28T06:00:00+00:00",
+        "wallet_id": "Partial_25pct_Debt",
+        "available_usd": "510.142165311397254216",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.042100185908951149",
+            "P_Liq_before_6h": "0.002279206756350423",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Repay_Debt",
+        "Decision_Reason": "Both succeeded. 'Repay Debt' chosen (Better HF Gain).",
+        "HF_after_Action": "1.389449757227447737",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "510.192042313756176288",
+            "Operation_USD_Value": "510.142165311397254216",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.347349571318496589",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.002279206756350423",
+            "Metric3_Operation_Cost_USD": "-0.001100038021480032"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.125280565838417958",
+            "Operation_USD_Value": "510.142165311397254216",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.202113913413334683",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.002279206756350423",
+            "Metric3_Operation_Cost_USD": "4.081433468052801913"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-28T06:00:00+00:00",
+        "wallet_id": "Balanced_75pct_Debt",
+        "available_usd": "1530.426495934191762647",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.042100185908951149",
+            "P_Liq_before_6h": "0.002279206756350423",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Repay_Debt",
+        "Decision_Reason": "Both succeeded. 'Repay Debt' chosen (Better HF Gain).",
+        "HF_after_Action": "4.167937541812072635",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "1530.576126941268528863",
+            "Operation_USD_Value": "1530.426495934191762647",
+            "Success": true,
+            "Metric1_HF_Improvement": "3.125837355903121487",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.002279206756350423",
+            "Metric3_Operation_Cost_USD": "-0.003300114064440097"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.375841697515253873",
+            "Operation_USD_Value": "1530.426495934191762647",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.606341740240004707",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.002279206756350423",
+            "Metric3_Operation_Cost_USD": "12.244300404158405738"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-28T06:00:00+00:00",
+        "wallet_id": "FullDebt_110pct_Debt",
+        "available_usd": "2244.625527370147918550",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.042100185908951149",
+            "P_Liq_before_6h": "0.002279206756350423",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Add_Collateral",
+        "Decision_Reason": "'Add Collateral' succeeded while 'Repay Debt' did not.",
+        "HF_after_Action": "1.931401404927624872",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "2244.844986180527175667",
+            "Operation_USD_Value": "2244.625527370147918550",
+            "Success": false,
+            "Metric1_HF_Improvement": "-11.467350264716244361",
+            "Metric2_P_Liq_After": "1.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "-0.997720793243649577",
+            "Metric3_Operation_Cost_USD": "-0.004840167294512143"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.551234489689039014",
+            "Operation_USD_Value": "2244.625527370147918550",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.889301219018673723",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.002279206756350423",
+            "Metric3_Operation_Cost_USD": "17.958307259432328416"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-28T06:00:00+00:00",
+        "wallet_id": "FullCollateral_100pct_Coll",
+        "available_usd": "2514.483832593670162533",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.042100185908951149",
+            "P_Liq_before_6h": "0.002279206756350423",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Add_Collateral",
+        "Decision_Reason": "'Add Collateral' succeeded while 'Repay Debt' did not.",
+        "HF_after_Action": "2.038316931313339538",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "2514.729675663656724107",
+            "Operation_USD_Value": "2514.483832593670162533",
+            "Success": false,
+            "Metric1_HF_Improvement": "-5.530023666582491768",
+            "Metric2_P_Liq_After": "1.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "-0.997720793243649577",
+            "Metric3_Operation_Cost_USD": "-0.005422072528667477"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.617506214462000163",
+            "Operation_USD_Value": "2514.483832593670162533",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.996216745404388389",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.002279206756350423",
+            "Metric3_Operation_Cost_USD": "20.117330358216915410"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-28T15:00:00+00:00",
+        "wallet_id": "Partial_25pct_Debt",
+        "available_usd": "510.142165311397254216",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.050248158277496735",
+            "P_Liq_before_6h": "0.000303711926200922",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Repay_Debt",
+        "Decision_Reason": "Both succeeded. 'Repay Debt' chosen (Better HF Gain).",
+        "HF_after_Action": "1.400314608636260602",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "510.193159876123507486",
+            "Operation_USD_Value": "510.142165311397254216",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.350066450358763867",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000303711926200922",
+            "Metric3_Operation_Cost_USD": "-0.048230445573306925"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.124324419155741158",
+            "Operation_USD_Value": "510.142165311397254216",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.202114356138592672",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000303711926200922",
+            "Metric3_Operation_Cost_USD": "6.429118927297774278"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-28T15:00:00+00:00",
+        "wallet_id": "Balanced_75pct_Debt",
+        "available_usd": "1530.426495934191762647",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.050248158277496735",
+            "P_Liq_before_6h": "0.000303711926200922",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Repay_Debt",
+        "Decision_Reason": "Both succeeded. 'Repay Debt' chosen (Better HF Gain).",
+        "HF_after_Action": "4.200553409122442315",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "1530.579479628370522457",
+            "Operation_USD_Value": "1530.426495934191762647",
+            "Success": true,
+            "Metric1_HF_Improvement": "3.150305250844945580",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000303711926200922",
+            "Metric3_Operation_Cost_USD": "-0.144691336719920774"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.372973257467223473",
+            "Operation_USD_Value": "1530.426495934191762647",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.606343068415778625",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000303711926200922",
+            "Metric3_Operation_Cost_USD": "19.287356781893322835"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-28T15:00:00+00:00",
+        "wallet_id": "FullDebt_110pct_Debt",
+        "available_usd": "2244.625527370147918550",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.050248158277496735",
+            "P_Liq_before_6h": "0.000303711926200922",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Add_Collateral",
+        "Decision_Reason": "'Add Collateral' succeeded while 'Repay Debt' did not.",
+        "HF_after_Action": "1.939551325287305526",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "2244.849903454943432938",
+            "Operation_USD_Value": "2244.625527370147918550",
+            "Success": false,
+            "Metric1_HF_Improvement": "-11.556757926335551893",
+            "Metric2_P_Liq_After": "1.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "-0.999696288073799078",
+            "Metric3_Operation_Cost_USD": "-0.212213960522550468"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.547027444285261094",
+            "Operation_USD_Value": "2244.625527370147918550",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.889303167009808791",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000303711926200922",
+            "Metric3_Operation_Cost_USD": "28.288123280110206824"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-28T15:00:00+00:00",
+        "wallet_id": "FullCollateral_100pct_Coll",
+        "available_usd": "2514.483832593670162533",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.050248158277496735",
+            "P_Liq_before_6h": "0.000303711926200922",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Add_Collateral",
+        "Decision_Reason": "'Add Collateral' succeeded while 'Repay Debt' did not.",
+        "HF_after_Action": "2.046467085868693316",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "2514.735184113449056190",
+            "Operation_USD_Value": "2514.483832593670162533",
+            "Success": false,
+            "Metric1_HF_Improvement": "-5.573209237728274316",
+            "Metric2_P_Liq_After": "1.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "-0.999696288073799078",
+            "Metric3_Operation_Cost_USD": "-0.237727213861731283"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.612793380396007362",
+            "Operation_USD_Value": "2514.483832593670162533",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.996218927591196581",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000303711926200922",
+            "Metric3_Operation_Cost_USD": "31.689040231842691995"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-28T19:00:00+00:00",
+        "wallet_id": "Partial_25pct_Debt",
+        "available_usd": "510.142165311397254216",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.052799791065577306",
+            "P_Liq_before_6h": "0.000152651313774399",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Repay_Debt",
+        "Decision_Reason": "Both succeeded. 'Repay Debt' chosen (Better HF Gain).",
+        "HF_after_Action": "1.403716370610983082",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "510.192750366703558249",
+            "Operation_USD_Value": "510.142165311397254216",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.350916579545405775",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000152651313774399",
+            "Metric3_Operation_Cost_USD": "-0.048832307346077045"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.124012050923214901",
+            "Operation_USD_Value": "510.142165311397254216",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.202114193910363808",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000152651313774399",
+            "Metric3_Operation_Cost_USD": "3.397452174405089443"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-28T19:00:00+00:00",
+        "wallet_id": "Balanced_75pct_Debt",
+        "available_usd": "1530.426495934191762647",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.052799791065577306",
+            "P_Liq_before_6h": "0.000152651313774399",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Repay_Debt",
+        "Decision_Reason": "Both succeeded. 'Repay Debt' chosen (Better HF Gain).",
+        "HF_after_Action": "4.210748735226860698",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "1530.578251100110674745",
+            "Operation_USD_Value": "1530.426495934191762647",
+            "Success": true,
+            "Metric1_HF_Improvement": "3.157948944161283392",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000152651313774399",
+            "Metric3_Operation_Cost_USD": "-0.146496922038231136"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.372036152769644703",
+            "Operation_USD_Value": "1530.426495934191762647",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.606342581731091874",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000152651313774399",
+            "Metric3_Operation_Cost_USD": "10.192356523215268330"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-28T19:00:00+00:00",
+        "wallet_id": "FullDebt_110pct_Debt",
+        "available_usd": "2244.625527370147918550",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.052799791065577306",
+            "P_Liq_before_6h": "0.000152651313774399",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Add_Collateral",
+        "Decision_Reason": "'Add Collateral' succeeded while 'Repay Debt' did not.",
+        "HF_after_Action": "1.942102244271178826",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "2244.848101613495656293",
+            "Operation_USD_Value": "2244.625527370147918550",
+            "Success": false,
+            "Metric1_HF_Improvement": "-11.584928696514779295",
+            "Metric2_P_Liq_After": "1.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "-0.999847348686225601",
+            "Metric3_Operation_Cost_USD": "-0.214862152322738999"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.545653024062145564",
+            "Operation_USD_Value": "2244.625527370147918550",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.889302453205601520",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000152651313774399",
+            "Metric3_Operation_Cost_USD": "14.948789567382393551"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-28T19:00:00+00:00",
+        "wallet_id": "FullCollateral_100pct_Coll",
+        "available_usd": "2514.483832593670162533",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.052799791065577306",
+            "P_Liq_before_6h": "0.000152651313774399",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Add_Collateral",
+        "Decision_Reason": "'Add Collateral' succeeded while 'Repay Debt' did not.",
+        "HF_after_Action": "2.049017919036027818",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "2514.733165647057185555",
+            "Operation_USD_Value": "2514.483832593670162533",
+            "Success": false,
+            "Metric1_HF_Improvement": "-5.586768952568516675",
+            "Metric2_P_Liq_After": "1.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "-0.999847348686225601",
+            "Metric3_Operation_Cost_USD": "-0.240693782398881810"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.611253721603004656",
+            "Operation_USD_Value": "2514.483832593670162533",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.996218127970450512",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.000152651313774399",
+            "Metric3_Operation_Cost_USD": "16.745995813416345408"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-29T16:00:00+00:00",
+        "wallet_id": "Partial_25pct_Debt",
+        "available_usd": "510.142165311397254216",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.012038070000099266",
+            "P_Liq_before_6h": "0.357117119653171300",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Repay_Debt",
+        "Decision_Reason": "Both succeeded. 'Repay Debt' chosen (Better HF Gain).",
+        "HF_after_Action": "1.349417689759162072",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "510.249051135456161693",
+            "Operation_USD_Value": "510.142165311397254216",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.337379619759062806",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.357117119653171300",
+            "Metric3_Operation_Cost_USD": "0.056688788108711822"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.129056052539307115",
+            "Operation_USD_Value": "510.142165311397254216",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.202136497607319160",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.357117119653171300",
+            "Metric3_Operation_Cost_USD": "5.071332317381791697"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-29T16:00:00+00:00",
+        "wallet_id": "Balanced_75pct_Debt",
+        "available_usd": "1530.426495934191762647",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.012038070000099266",
+            "P_Liq_before_6h": "0.357117119653171300",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Repay_Debt",
+        "Decision_Reason": "Both succeeded. 'Repay Debt' chosen (Better HF Gain).",
+        "HF_after_Action": "4.049059564207800580",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "1530.747153406368485077",
+            "Operation_USD_Value": "1530.426495934191762647",
+            "Success": true,
+            "Metric1_HF_Improvement": "3.037021494207701314",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.357117119653171300",
+            "Metric3_Operation_Cost_USD": "0.170066364326135466"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.387168157617921344",
+            "Operation_USD_Value": "1530.426495934191762647",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.606409492821957811",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.357117119653171300",
+            "Metric3_Operation_Cost_USD": "15.213996952145375092"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-29T16:00:00+00:00",
+        "wallet_id": "FullDebt_110pct_Debt",
+        "available_usd": "2244.625527370147918550",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.012038070000099266",
+            "P_Liq_before_6h": "0.357117119653171300",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Add_Collateral",
+        "Decision_Reason": "'Add Collateral' succeeded while 'Repay Debt' did not.",
+        "HF_after_Action": "1.901438659472304133",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "2245.095824996007111447",
+            "Operation_USD_Value": "2244.625527370147918550",
+            "Success": false,
+            "Metric1_HF_Improvement": "-11.124110687585875341",
+            "Metric2_P_Liq_After": "1.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "-0.642882880346828700",
+            "Metric3_Operation_Cost_USD": "0.249430667678332016"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.567846631172951304",
+            "Operation_USD_Value": "2244.625527370147918550",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.889400589472204867",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.357117119653171300",
+            "Metric3_Operation_Cost_USD": "22.313862196479883468"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-29T16:00:00+00:00",
+        "wallet_id": "FullCollateral_100pct_Coll",
+        "available_usd": "2514.483832593670162533",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.012038070000099266",
+            "P_Liq_before_6h": "0.357117119653171300",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Add_Collateral",
+        "Decision_Reason": "'Add Collateral' succeeded while 'Repay Debt' did not.",
+        "HF_after_Action": "2.008366132591160777",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "2515.010671374709793398",
+            "Operation_USD_Value": "2514.483832593670162533",
+            "Success": false,
+            "Metric1_HF_Improvement": "-5.367912752333024799",
+            "Metric2_P_Liq_After": "1.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "-0.642882880346828700",
+            "Metric3_Operation_Cost_USD": "0.279418269810483308"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.636115537343129400",
+            "Operation_USD_Value": "2514.483832593670162533",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.996328062591061512",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.357117119653171300",
+            "Metric3_Operation_Cost_USD": "24.996528397103690042"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-29T19:00:00+00:00",
+        "wallet_id": "Partial_25pct_Debt",
+        "available_usd": "510.142165311397254216",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.008703344794923629",
+            "P_Liq_before_6h": "0.500460643785291200",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Repay_Debt",
+        "Decision_Reason": "Both succeeded. 'Repay Debt' chosen (Better HF Gain).",
+        "HF_after_Action": "1.344960656773252959",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "510.236963054994130823",
+            "Operation_USD_Value": "510.142165311397254216",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.336257311978329331",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.500460643785291200",
+            "Metric3_Operation_Cost_USD": "-0.011524680871677787"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.129458713234797625",
+            "Operation_USD_Value": "510.142165311397254216",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.202131708882593473",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.500460643785291200",
+            "Metric3_Operation_Cost_USD": "8.316263056477468042"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-29T19:00:00+00:00",
+        "wallet_id": "Balanced_75pct_Debt",
+        "available_usd": "1530.426495934191762647",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.008703344794923629",
+            "P_Liq_before_6h": "0.500460643785291200",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Repay_Debt",
+        "Decision_Reason": "Both succeeded. 'Repay Debt' chosen (Better HF Gain).",
+        "HF_after_Action": "4.035430783406414974",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "1530.710889164982392468",
+            "Operation_USD_Value": "1530.426495934191762647",
+            "Success": true,
+            "Metric1_HF_Improvement": "3.026727438611491345",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.500460643785291200",
+            "Metric3_Operation_Cost_USD": "-0.034574042615033361"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.388376139704392875",
+            "Operation_USD_Value": "1530.426495934191762647",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.606395126647780909",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.500460643785291200",
+            "Metric3_Operation_Cost_USD": "24.948789169432404125"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-29T19:00:00+00:00",
+        "wallet_id": "FullDebt_110pct_Debt",
+        "available_usd": "2244.625527370147918550",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.008703344794923629",
+            "P_Liq_before_6h": "0.500460643785291200",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Add_Collateral",
+        "Decision_Reason": "'Add Collateral' succeeded while 'Repay Debt' did not.",
+        "HF_after_Action": "1.898082863878335742",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "2245.042637441974175621",
+            "Operation_USD_Value": "2244.625527370147918550",
+            "Success": false,
+            "Metric1_HF_Improvement": "-11.090081292535129230",
+            "Metric2_P_Liq_After": "1.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "-0.499539356214708800",
+            "Metric3_Operation_Cost_USD": "-0.050708595835382262"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.569618338233109551",
+            "Operation_USD_Value": "2244.625527370147918550",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.889379519083412113",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.500460643785291200",
+            "Metric3_Operation_Cost_USD": "36.591557448500859384"
+        }
+    },
+    {
+        "datetime_utc": "2025-10-29T19:00:00+00:00",
+        "wallet_id": "FullCollateral_100pct_Coll",
+        "available_usd": "2514.483832593670162533",
+        "Reason_For_Trigger": "HF_Dropping_Only",
+        "Baseline_State": {
+            "HF_before": "1.008703344794923629",
+            "P_Liq_before_6h": "0.500460643785291200",
+            "HF_TARGET (q30)": "0.999645273184362360"
+        },
+        "Final_Decision": "Add_Collateral",
+        "Decision_Reason": "'Add Collateral' succeeded while 'Repay Debt' did not.",
+        "HF_after_Action": "2.005007803826585236",
+        "metrics_Repay_Debt": {
+            "Operation_Asset": "USDC",
+            "Operation_Quantity": "2514.951089389616845087",
+            "Operation_USD_Value": "2514.483832593670162533",
+            "Success": false,
+            "Metric1_HF_Improvement": "-5.350770770277296841",
+            "Metric2_P_Liq_After": "1.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "-0.499539356214708800",
+            "Metric3_Operation_Cost_USD": "-0.056804996132688623"
+        },
+        "metrics_Add_Collateral": {
+            "Operation_Asset": "WETH",
+            "Operation_Quantity": "0.638100246464779399",
+            "Operation_USD_Value": "2514.483832593670162533",
+            "Success": true,
+            "Metric1_HF_Improvement": "0.996304459031661608",
+            "Metric2_P_Liq_After": "0.000000000000000000",
+            "Metric2_Liq_Rate_Reduction": "0.500460643785291200",
+            "Metric3_Operation_Cost_USD": "40.990748118897811733"
+        }
+    }
+]

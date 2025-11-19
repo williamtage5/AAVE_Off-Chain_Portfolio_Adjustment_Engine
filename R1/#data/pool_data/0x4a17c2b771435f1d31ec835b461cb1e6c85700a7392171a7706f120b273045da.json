@@ -1,0 +1,65 @@
+{
+    "liquidation_timestamp": 1760698643,
+    "txHash": "0x4a17c2b771435f1d31ec835b461cb1e6c85700a7392171a7706f120b273045da",
+    "user_id": "0xf04cdb51e2294d00a993a4734a6d0974c123c7d1",
+    "last_action_timestamp": 1742555755.0,
+    "last_action_type": "reserves",
+    "liquidation_datetime": "2025-10-17 10:57:23",
+    "last_action_datetime": "2025-03-21 11:15:55",
+    "found_network": "Base Mainnet",
+    "block_number": 36954648,
+    "pre_liquidation_snapshot": [
+        {
+            "currentATokenBalance": "5487544461876",
+            "currentTotalDebt": "0",
+            "reserve": {
+                "decimals": 18,
+                "price": {
+                    "priceInEth": "371677073186"
+                },
+                "reserveLiquidationThreshold": "8300",
+                "symbol": "WETH"
+            },
+            "usageAsCollateralEnabledOnUser": true
+        },
+        {
+            "currentATokenBalance": "0",
+            "currentTotalDebt": "436549217411410597",
+            "reserve": {
+                "decimals": 18,
+                "price": {
+                    "priceInEth": "0"
+                },
+                "reserveLiquidationThreshold": "0",
+                "symbol": "GHO"
+            },
+            "usageAsCollateralEnabledOnUser": false
+        },
+        {
+            "currentATokenBalance": "542284",
+            "currentTotalDebt": "0",
+            "reserve": {
+                "decimals": 6,
+                "price": {
+                    "priceInEth": "99988942"
+                },
+                "reserveLiquidationThreshold": "7800",
+                "symbol": "USDC"
+            },
+            "usageAsCollateralEnabledOnUser": true
+        },
+        {
+            "currentATokenBalance": "0",
+            "currentTotalDebt": "0",
+            "reserve": {
+                "decimals": 18,
+                "price": {
+                    "priceInEth": "0"
+                },
+                "reserveLiquidationThreshold": "7900",
+                "symbol": "wstETH"
+            },
+            "usageAsCollateralEnabledOnUser": false
+        }
+    ]
+}

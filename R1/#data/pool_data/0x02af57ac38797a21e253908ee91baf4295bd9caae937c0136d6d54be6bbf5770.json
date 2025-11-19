@@ -1,0 +1,65 @@
+{
+    "liquidation_timestamp": 1760951101,
+    "txHash": "0x02af57ac38797a21e253908ee91baf4295bd9caae937c0136d6d54be6bbf5770",
+    "user_id": "0xfe961217a733ec4377116bc49df5240c8728c8aa",
+    "last_action_timestamp": 1729900285.0,
+    "last_action_type": "reserves",
+    "liquidation_datetime": "2025-10-20 09:05:01",
+    "last_action_datetime": "2024-10-25 23:51:25",
+    "found_network": "Base Mainnet",
+    "block_number": 37080877,
+    "pre_liquidation_snapshot": [
+        {
+            "currentATokenBalance": "0",
+            "currentTotalDebt": "17778985654083",
+            "reserve": {
+                "decimals": 18,
+                "price": {
+                    "priceInEth": "0"
+                },
+                "reserveLiquidationThreshold": "7700",
+                "symbol": "weETH"
+            },
+            "usageAsCollateralEnabledOnUser": false
+        },
+        {
+            "currentATokenBalance": "20005053792742",
+            "currentTotalDebt": "0",
+            "reserve": {
+                "decimals": 18,
+                "price": {
+                    "priceInEth": "404170000000"
+                },
+                "reserveLiquidationThreshold": "8300",
+                "symbol": "WETH"
+            },
+            "usageAsCollateralEnabledOnUser": true
+        },
+        {
+            "currentATokenBalance": "0",
+            "currentTotalDebt": "0",
+            "reserve": {
+                "decimals": 6,
+                "price": {
+                    "priceInEth": "99995985"
+                },
+                "reserveLiquidationThreshold": "7800",
+                "symbol": "USDC"
+            },
+            "usageAsCollateralEnabledOnUser": false
+        },
+        {
+            "currentATokenBalance": "11",
+            "currentTotalDebt": "0",
+            "reserve": {
+                "decimals": 8,
+                "price": {
+                    "priceInEth": "8155695500000"
+                },
+                "reserveLiquidationThreshold": "7800",
+                "symbol": "cbBTC"
+            },
+            "usageAsCollateralEnabledOnUser": true
+        }
+    ]
+}

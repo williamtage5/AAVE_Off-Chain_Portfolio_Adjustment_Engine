@@ -1,0 +1,78 @@
+{
+    "liquidation_timestamp": 1761828573,
+    "txHash": "0xebad908eac66c1c8e5f12edce2bf827abb10cc34b39f4adc8a5c410ae4dd8b95",
+    "user_id": "0xc010ae89feb40df1ab71c3ce56840a024a2912ed",
+    "last_action_timestamp": 1761067285.0,
+    "last_action_type": "reserves",
+    "liquidation_datetime": "2025-10-30 12:49:33",
+    "last_action_datetime": "2025-10-21 17:21:25",
+    "found_network": "Base Mainnet",
+    "block_number": 37519613,
+    "pre_liquidation_snapshot": [
+        {
+            "currentATokenBalance": "122530971162842174",
+            "currentTotalDebt": "0",
+            "reserve": {
+                "decimals": 18,
+                "price": {
+                    "priceInEth": "382005681402"
+                },
+                "reserveLiquidationThreshold": "8300",
+                "symbol": "WETH"
+            },
+            "usageAsCollateralEnabledOnUser": true
+        },
+        {
+            "currentATokenBalance": "0",
+            "currentTotalDebt": "0",
+            "reserve": {
+                "decimals": 18,
+                "price": {
+                    "priceInEth": "0"
+                },
+                "reserveLiquidationThreshold": "0",
+                "symbol": "GHO"
+            },
+            "usageAsCollateralEnabledOnUser": false
+        },
+        {
+            "currentATokenBalance": "6568878",
+            "currentTotalDebt": "406291491",
+            "reserve": {
+                "decimals": 6,
+                "price": {
+                    "priceInEth": "99987000"
+                },
+                "reserveLiquidationThreshold": "7800",
+                "symbol": "USDC"
+            },
+            "usageAsCollateralEnabledOnUser": true
+        },
+        {
+            "currentATokenBalance": "0",
+            "currentTotalDebt": "3",
+            "reserve": {
+                "decimals": 18,
+                "price": {
+                    "priceInEth": "0"
+                },
+                "reserveLiquidationThreshold": "7900",
+                "symbol": "wstETH"
+            },
+            "usageAsCollateralEnabledOnUser": false
+        },
+        {
+            "currentATokenBalance": "16552",
+            "currentTotalDebt": "0",
+            "reserve": {
+                "decimals": 8,
+                "price": {
+                    "priceInEth": "8155695500000"
+                },
+                "reserveLiquidationThreshold": "7800",
+                "symbol": "cbBTC"
+            },
+            "usageAsCollateralEnabledOnUser": true
+        }
+    ]
+}

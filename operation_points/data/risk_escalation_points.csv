@@ -1,0 +1,21 @@
+datetime_utc,Previous_Risk_Level,New_Risk_Level,Reason_For_Change (Quadrant)
+2025-10-21 18:00:00+00:00,Low Risk,Medium Risk,HF_Dropping_Only
+2025-10-21 21:00:00+00:00,Low Risk,Medium Risk,HF_Dropping_Only
+2025-10-21 23:00:00+00:00,Medium Risk,High Risk,High_Personal_Risk_Liquidated (HF < 1.0)
+2025-10-23 19:00:00+00:00,Low Risk,High Risk,High_Personal_Risk_Liquidated (HF < 1.0)
+2025-10-24 08:00:00+00:00,Low Risk,Medium Risk,HF_Dropping_Only
+2025-10-24 15:00:00+00:00,Low Risk,Medium Risk,HF_Dropping_Only
+2025-10-24 16:00:00+00:00,Medium Risk,High Risk,High_Personal_Risk_Liquidated (HF < 1.0)
+2025-10-26 03:00:00+00:00,Low Risk,Medium Risk,HF_Dropping_Only
+2025-10-27 08:00:00+00:00,Low Risk,Medium Risk,HF_Dropping_Only
+2025-10-27 13:00:00+00:00,Low Risk,Medium Risk,HF_Dropping_Only
+2025-10-27 15:00:00+00:00,Low Risk,Medium Risk,HF_Dropping_Only
+2025-10-27 20:00:00+00:00,Low Risk,Medium Risk,HF_Dropping_Only
+2025-10-28 03:00:00+00:00,Low Risk,Medium Risk,HF_Dropping_Only
+2025-10-28 06:00:00+00:00,Low Risk,Medium Risk,HF_Dropping_Only
+2025-10-28 15:00:00+00:00,Low Risk,Medium Risk,HF_Dropping_Only
+2025-10-28 19:00:00+00:00,Low Risk,Medium Risk,HF_Dropping_Only
+2025-10-29 16:00:00+00:00,Low Risk,Medium Risk,HF_Dropping_Only
+2025-10-29 19:00:00+00:00,Low Risk,Medium Risk,HF_Dropping_Only
+2025-10-30 00:00:00+00:00,Low Risk,High Risk,High_Personal_Risk_Liquidated (HF < 1.0)
+2025-10-30 05:00:00+00:00,Low Risk,High Risk,High_Personal_Risk_Liquidated (HF < 1.0)

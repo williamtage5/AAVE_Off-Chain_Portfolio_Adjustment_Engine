@@ -1,0 +1,65 @@
+{
+    "liquidation_timestamp": 1760838217,
+    "txHash": "0xfa9148a2ab8e0dc0cdcb0278a121b3fbfe0b695a53dddd3bd0732262a4f3baaa",
+    "user_id": "0x6c6331b496de01d1e96bfa1b64ebf57f14105d29",
+    "last_action_timestamp": 1756275287.0,
+    "last_action_type": "reserves",
+    "liquidation_datetime": "2025-10-19 01:43:37",
+    "last_action_datetime": "2025-08-27 06:14:47",
+    "found_network": "Base Mainnet",
+    "block_number": 37024435,
+    "pre_liquidation_snapshot": [
+        {
+            "currentATokenBalance": "0",
+            "currentTotalDebt": "24568017702334",
+            "reserve": {
+                "decimals": 18,
+                "price": {
+                    "priceInEth": "0"
+                },
+                "reserveLiquidationThreshold": "7900",
+                "symbol": "cbETH"
+            },
+            "usageAsCollateralEnabledOnUser": false
+        },
+        {
+            "currentATokenBalance": "0",
+            "currentTotalDebt": "0",
+            "reserve": {
+                "decimals": 18,
+                "price": {
+                    "priceInEth": "386867680000"
+                },
+                "reserveLiquidationThreshold": "8300",
+                "symbol": "WETH"
+            },
+            "usageAsCollateralEnabledOnUser": false
+        },
+        {
+            "currentATokenBalance": "103929",
+            "currentTotalDebt": "0",
+            "reserve": {
+                "decimals": 6,
+                "price": {
+                    "priceInEth": "99991845"
+                },
+                "reserveLiquidationThreshold": "7800",
+                "symbol": "USDC"
+            },
+            "usageAsCollateralEnabledOnUser": true
+        },
+        {
+            "currentATokenBalance": "0",
+            "currentTotalDebt": "0",
+            "reserve": {
+                "decimals": 6,
+                "price": {
+                    "priceInEth": "100010000"
+                },
+                "reserveLiquidationThreshold": "7800",
+                "symbol": "USDbC"
+            },
+            "usageAsCollateralEnabledOnUser": false
+        }
+    ]
+}

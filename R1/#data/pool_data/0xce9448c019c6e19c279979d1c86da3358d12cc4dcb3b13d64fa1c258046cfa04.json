@@ -1,0 +1,78 @@
+{
+    "liquidation_timestamp": 1761682025,
+    "txHash": "0xce9448c019c6e19c279979d1c86da3358d12cc4dcb3b13d64fa1c258046cfa04",
+    "user_id": "0x1b78d470fd222b600678f2ff93481978d8ab77b8",
+    "last_action_timestamp": 1760181741.0,
+    "last_action_type": "reserves",
+    "liquidation_datetime": "2025-10-28 20:07:05",
+    "last_action_datetime": "2025-10-11 11:22:21",
+    "found_network": "Base Mainnet",
+    "block_number": 37446339,
+    "pre_liquidation_snapshot": [
+        {
+            "currentATokenBalance": "10700565259390237471",
+            "currentTotalDebt": "19314676825",
+            "reserve": {
+                "decimals": 18,
+                "price": {
+                    "priceInEth": "402204300000"
+                },
+                "reserveLiquidationThreshold": "8300",
+                "symbol": "WETH"
+            },
+            "usageAsCollateralEnabledOnUser": true
+        },
+        {
+            "currentATokenBalance": "0",
+            "currentTotalDebt": "11663897341",
+            "reserve": {
+                "decimals": 6,
+                "price": {
+                    "priceInEth": "0"
+                },
+                "reserveLiquidationThreshold": "7800",
+                "symbol": "EURC"
+            },
+            "usageAsCollateralEnabledOnUser": false
+        },
+        {
+            "currentATokenBalance": "80241307465349136479",
+            "currentTotalDebt": "0",
+            "reserve": {
+                "decimals": 18,
+                "price": {
+                    "priceInEth": "23044517687"
+                },
+                "reserveLiquidationThreshold": "6500",
+                "symbol": "AAVE"
+            },
+            "usageAsCollateralEnabledOnUser": true
+        },
+        {
+            "currentATokenBalance": "250409480739",
+            "currentTotalDebt": "0",
+            "reserve": {
+                "decimals": 18,
+                "price": {
+                    "priceInEth": "0"
+                },
+                "reserveLiquidationThreshold": "0",
+                "symbol": "GHO"
+            },
+            "usageAsCollateralEnabledOnUser": false
+        },
+        {
+            "currentATokenBalance": "-5",
+            "currentTotalDebt": "34076633795",
+            "reserve": {
+                "decimals": 6,
+                "price": {
+                    "priceInEth": "99986916"
+                },
+                "reserveLiquidationThreshold": "7800",
+                "symbol": "USDC"
+            },
+            "usageAsCollateralEnabledOnUser": false
+        }
+    ]
+}

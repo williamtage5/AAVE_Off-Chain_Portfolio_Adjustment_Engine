@@ -1,0 +1,65 @@
+{
+    "liquidation_timestamp": 1761685699,
+    "txHash": "0xc27e8af08901a7ba9c7674d2acacbad79992c4696d199d270ee211dc33de2a9f",
+    "user_id": "0x45f7b6b7d7d721735dce36a473a0cb9ffb7c4304",
+    "last_action_timestamp": 1761531791.0,
+    "last_action_type": "reserves",
+    "liquidation_datetime": "2025-10-28 21:08:19",
+    "last_action_datetime": "2025-10-27 02:23:11",
+    "found_network": "Base Mainnet",
+    "block_number": 37448176,
+    "pre_liquidation_snapshot": [
+        {
+            "currentATokenBalance": "758150936791639472",
+            "currentTotalDebt": "3",
+            "reserve": {
+                "decimals": 18,
+                "price": {
+                    "priceInEth": "395451000000"
+                },
+                "reserveLiquidationThreshold": "8300",
+                "symbol": "WETH"
+            },
+            "usageAsCollateralEnabledOnUser": true
+        },
+        {
+            "currentATokenBalance": "0",
+            "currentTotalDebt": "2527684292431058582388",
+            "reserve": {
+                "decimals": 18,
+                "price": {
+                    "priceInEth": "0"
+                },
+                "reserveLiquidationThreshold": "0",
+                "symbol": "GHO"
+            },
+            "usageAsCollateralEnabledOnUser": false
+        },
+        {
+            "currentATokenBalance": "50385001",
+            "currentTotalDebt": "-2",
+            "reserve": {
+                "decimals": 6,
+                "price": {
+                    "priceInEth": "99986916"
+                },
+                "reserveLiquidationThreshold": "7800",
+                "symbol": "USDC"
+            },
+            "usageAsCollateralEnabledOnUser": true
+        },
+        {
+            "currentATokenBalance": "0",
+            "currentTotalDebt": "0",
+            "reserve": {
+                "decimals": 8,
+                "price": {
+                    "priceInEth": "8155695500000"
+                },
+                "reserveLiquidationThreshold": "7800",
+                "symbol": "cbBTC"
+            },
+            "usageAsCollateralEnabledOnUser": false
+        }
+    ]
+}

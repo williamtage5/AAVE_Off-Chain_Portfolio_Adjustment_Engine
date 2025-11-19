@@ -1,0 +1,47 @@
+{
+    "cbETH": {
+        "total_value_usd": "0E-18",
+        "count": 3,
+        "liquidation_threshold": "7900"
+    },
+    "WETH": {
+        "total_value_usd": "50516.89712550480043895777583560",
+        "count": 28,
+        "liquidation_threshold": "8300"
+    },
+    "cbBTC": {
+        "total_value_usd": "6803.21041700940",
+        "count": 15,
+        "liquidation_threshold": "7800"
+    },
+    "USDC": {
+        "total_value_usd": "81.45151087021130",
+        "count": 15,
+        "liquidation_threshold": "7800"
+    },
+    "weETH": {
+        "total_value_usd": "0E-18",
+        "count": 1,
+        "liquidation_threshold": "7700"
+    },
+    "EURC": {
+        "total_value_usd": "0.000000",
+        "count": 3,
+        "liquidation_threshold": "7800"
+    },
+    "AAVE": {
+        "total_value_usd": "18517.50274994541551428978217103",
+        "count": 2,
+        "liquidation_threshold": "6500"
+    },
+    "wstETH": {
+        "total_value_usd": "0E-18",
+        "count": 2,
+        "liquidation_threshold": "7900"
+    },
+    "USDbC": {
+        "total_value_usd": "0.2000540034",
+        "count": 4,
+        "liquidation_threshold": "7800"
+    }
+}

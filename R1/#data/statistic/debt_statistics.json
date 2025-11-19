@@ -1,0 +1,38 @@
+{
+    "USDC": {
+        "total_value_usd": "49777.15807175442836",
+        "count": 21
+    },
+    "cbBTC": {
+        "total_value_usd": "25.90248890800",
+        "count": 8
+    },
+    "wstETH": {
+        "total_value_usd": "0E-18",
+        "count": 4
+    },
+    "EURC": {
+        "total_value_usd": "0.000000",
+        "count": 10
+    },
+    "WETH": {
+        "total_value_usd": "22.49344106693508597206091522",
+        "count": 11
+    },
+    "GHO": {
+        "total_value_usd": "0E-18",
+        "count": 6
+    },
+    "USDbC": {
+        "total_value_usd": "104.2933912963",
+        "count": 10
+    },
+    "weETH": {
+        "total_value_usd": "0E-18",
+        "count": 1
+    },
+    "cbETH": {
+        "total_value_usd": "0E-18",
+        "count": 3
+    }
+}
